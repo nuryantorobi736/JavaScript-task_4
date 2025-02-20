@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Variabel dan Tipe Data dalam JavaScript</title>
+    <script>
+        // Deklarasi variabel dengan berbagai tipe data
+        var nama = "John Doe"; // String
+        var usia = 30; // Number
+        var isMahasiswa = true; // Boolean
+        var alamat = null; // Null
+        var hobi = ["Membaca", "Bersepeda", "Berenang"]; // Array
+        var pengguna = { // Object
+            nama: "Pengembang",
+            pengalaman: 5
+        };
+
+        // Tampilkan hasil dengan console.log(), alert(), dan document.write()
+        console.log("Nama: " + nama);
+        console.log("Usia: " + usia);
+        console.log("Mahasiswa: " + isMahasiswa);
+        console.log("Alamat: " + alamat);
+        console.log("Hobi: " + hobi.join(", "));
+        console.log("Pengguna: " + JSON.stringify(pengguna));
+
+        alert("Nama: " + nama);
+        alert("Usia: " + usia);
+        alert("Mahasiswa: " + isMahasiswa);
+
+        document.write("<h1>Contoh Variabel dan Tipe Data dalam JavaScript</h1>");
+        document.write("<h2>Informasi Pengguna</h2>");
+        document.write("<p>Nama: " + nama + "</p>");
+        document.write("<p>Usia: " + usia + "</p>");
+        document.write("<p>Mahasiswa: " + isMahasiswa + "</p>");
+        document.write("<p>Alamat: " + alamat + "</p>");
+        document.write("<p>Hobi: " + hobi.join(", ") + "</p>");
+        document.write("<p>Pengguna: " + pengguna.nama + "</p>");
+        document.write("<p>Pengalaman: " + pengguna.pengalaman + " tahun</p>");
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
